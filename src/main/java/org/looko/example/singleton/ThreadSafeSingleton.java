@@ -1,4 +1,4 @@
-package singleton;
+package org.looko.example.singleton;
 
 /**
  * 带 DCL (Double-Check Lock) 的懒汉式线程安全单例
