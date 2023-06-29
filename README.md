@@ -21,7 +21,7 @@
 - [x] 单例模式 Singleton ([java](./src/main/java/org/looko/example/singleton/ThreadSafeSingleton.java) / [kotlin](./src/main/kotlin/org/looko/example/singleton/ThreadSafeSingletonKt.kt))
 - [x] 责任链模式 ChainOfResponsibility ([java](./src/main/java/org/looko/example/chainofresponsibility/ChainOfResponsibility.java) / [kotlin](./src/main/kotlin/org/looko/example/chainofresponsibility/ChainOfResponsibilityKt.kt))
 - [x] 适配器模式 Adapter ([java](./src/main/java/org/looko/example/adapter/Adapter.java) / [kotlin](./src/main/kotlin/org/looko/example/adapter/AdapterKt.kt))
-- [ ] 桥接模式 Bridge ([java](./src/main/java/org/looko/example/bridge/Bridge.java) / [kotlin](./src/main/kotlin/org/looko/example/bridge/BridgeKt.kt))
+- [x] 桥接模式 Bridge ([java](./src/main/java/org/looko/example/bridge/Bridge.java) / [kotlin](./src/main/kotlin/org/looko/example/bridge/BridgeKt.kt))
 - [ ] 组合模式 Composite ([java](./src/main/java/org/looko/example/composite/Composite.java) / [kotlin](./src/main/kotlin/org/looko/example/composite/CompositeKt.kt))
 - [ ] 装饰器模式 Decorator ([java](./src/main/java/org/looko/example/decorator/Decorator.java) / [kotlin](./src/main/kotlin/org/looko/example/decorator/DecoratorKt.kt))
 - [ ] 外观模式 Facade ([java](./src/main/java/org/looko/example/facade/Facade.java) / [kotlin](./src/main/kotlin/org/looko/example/facade/FacadeKt.kt))
