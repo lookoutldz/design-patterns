@@ -19,20 +19,20 @@ fun main() {
 }
 
 // 目标接口
-internal interface MediaPlayer {
+interface MediaPlayer {
     fun play(audioType: String, fileName: String)
 }
 
 
 // 适配者接口
-internal interface AdvancedMediaPlayer {
+interface AdvancedMediaPlayer {
     fun playVlc(fileName: String)
     fun playMp4(fileName: String)
 }
 
 
 // 适配者类 - VLC播放器
-internal class VlcPlayer : AdvancedMediaPlayer {
+class VlcPlayer : AdvancedMediaPlayer {
     override fun playVlc(fileName: String) {
         println("Playing VLC file: $fileName")
     }
@@ -44,7 +44,7 @@ internal class VlcPlayer : AdvancedMediaPlayer {
 
 
 // 适配者类 - MP4播放器
-internal class Mp4Player : AdvancedMediaPlayer {
+class Mp4Player : AdvancedMediaPlayer {
     override fun playVlc(fileName: String) {
         // 不实现
     }
@@ -56,7 +56,7 @@ internal class Mp4Player : AdvancedMediaPlayer {
 
 
 // 适配器类
-internal class MediaAdapter(audioType: String) : MediaPlayer {
+class MediaAdapter(audioType: String) : MediaPlayer {
     private var advancedMediaPlayer: AdvancedMediaPlayer? = null
 
     init {

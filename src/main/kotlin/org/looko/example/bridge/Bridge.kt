@@ -22,30 +22,30 @@ fun main() {
     Triangle(Black()).draw()
 }
 
-internal interface Shape {
+interface Shape {
     val shapeName: String
     fun draw()
 }
-internal class Circle(private val color: Color): Shape {
+class Circle(private val color: Color): Shape {
     override val shapeName = "圆"
     override fun draw() {
         println("画出了${color.colorName}色的$shapeName")
     }
 }
-internal class Triangle(private val color: Color): Shape {
+class Triangle(private val color: Color): Shape {
     override val shapeName = "三角形"
     override fun draw() {
         println("画出了${color.colorName}色的$shapeName")
     }
 }
 
-internal interface Color { val colorName: String }
-internal class Blue: Color {
+interface Color { val colorName: String }
+class Blue: Color {
     override val colorName = "蓝"
 }
-internal class Red: Color {
+class Red: Color {
     override val colorName = "红"
 }
-internal class Black: Color {
+class Black: Color {
     override val colorName = "黑"
 }
