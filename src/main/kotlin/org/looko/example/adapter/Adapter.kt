@@ -3,11 +3,10 @@ package org.looko.example.adapter
 /**
  * 适配器模式
  *
- * 应用场景很多，主要应用于不同业务接口之间的适配
- * 目的是让目标接口能使用一些第三方的接口
- * 因为第三方接口往往意味着无权修改，所以要对目标接口的实现做适配，其实现就叫做适配器
+ * 适配器模式主要用于解决接口不兼容的问题
+ * 比如第三方接口往往意味着无权修改，要对目标接口的实现做适配，其实现就叫做适配器
  *
- * 本质上就是适配器内 wrap 了一层第三方接口
+ * 本质上就是适配器内 wrap 了一层已有类
  */
 fun main() {
     var mediaPlayer: MediaPlayer = MediaAdapter("mp4")
@@ -24,14 +23,14 @@ interface MediaPlayer {
 }
 
 
-// 适配者接口
+// 适配者接口 (adaptee interface)
 interface AdvancedMediaPlayer {
     fun playVlc(fileName: String)
     fun playMp4(fileName: String)
 }
 
 
-// 适配者类 - VLC播放器
+// 适配者类 - VLC播放器 (adaptee 1)
 class VlcPlayer : AdvancedMediaPlayer {
     override fun playVlc(fileName: String) {
         println("Playing VLC file: $fileName")
@@ -43,7 +42,7 @@ class VlcPlayer : AdvancedMediaPlayer {
 }
 
 
-// 适配者类 - MP4播放器
+// 适配者类 - MP4播放器 (adaptee 2)
 class Mp4Player : AdvancedMediaPlayer {
     override fun playVlc(fileName: String) {
         // 不实现
@@ -55,7 +54,13 @@ class Mp4Player : AdvancedMediaPlayer {
 }
 
 
-// 适配器类
+/**
+ *  适配器类 (adapter)
+ *
+ *  需求：客户端想通过 MediaPlayer 接口播放 vlc 和 mp4
+ *  现状：目前手上有个支持该功能的接口 AdvancedMediaPlayer, 但客户端的目标接口 MediaPlayer 不支持
+ *  将 AdvancedMediaPlayer 转化成期望的 MediaPlayer 接口
+ */
 class MediaAdapter(audioType: String) : MediaPlayer {
     private var advancedMediaPlayer: AdvancedMediaPlayer? = null
 
