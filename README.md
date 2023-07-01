@@ -28,7 +28,7 @@
 - [ ] 工厂方法模式 Factory Method ([java](./src/main/java/org/looko/example/factorymethod/FactoryMethod.java) / [kotlin](./src/main/kotlin/org/looko/example/factorymethod/FactoryMethod.kt))
 - [ ] 原型模式 Prototype ([java](./src/main/java/org/looko/example/prototype/Prototype.java) / [kotlin](./src/main/kotlin/org/looko/example/prototype/Prototype.kt))
 - [ ] 享元模式 Flyweight ([java](./src/main/java/org/looko/example/flyweight/Flyweight.java) / [kotlin](./src/main/kotlin/org/looko/example/flyweight/Flyweight.kt))
-- [ ] 代理模式 Proxy ([java](./src/main/java/org/looko/example/proxy/Proxy.java) / [kotlin](./src/main/kotlin/org/looko/example/proxy/Proxy.kt))
+- [x] 代理模式 Proxy ([java](./src/main/java/org/looko/example/proxy/Proxy.java) / [kotlin](./src/main/kotlin/org/looko/example/proxy/Proxy.kt))
 - [ ] 模板方法模式 Template Method ([java](./src/main/java/org/looko/example/template/TemplateMethod.java) / [kotlin](./src/main/kotlin/org/looko/example/template/TemplateMethod.kt))
 - [ ] 策略模式 Strategy ([java](./src/main/java/org/looko/example/strategy/Strategy.java) / [kotlin](./src/main/kotlin/org/looko/example/strategy/Strategy.kt))
 - [ ] 命令模式 Command ([java](./src/main/java/org/looko/example/command/Command.java) / [kotlin](./src/main/kotlin/org/looko/example/command/Command.kt))
