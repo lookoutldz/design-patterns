@@ -30,7 +30,7 @@
 - [ ] 享元模式 Flyweight ([java](./src/main/java/org/looko/example/flyweight/Flyweight.java) / [kotlin](./src/main/kotlin/org/looko/example/flyweight/Flyweight.kt))
 - [x] 代理模式 Proxy ([java](./src/main/java/org/looko/example/proxy/Proxy.java) / [kotlin](./src/main/kotlin/org/looko/example/proxy/Proxy.kt))
 - [ ] 模板方法模式 Template Method ([java](./src/main/java/org/looko/example/template/TemplateMethod.java) / [kotlin](./src/main/kotlin/org/looko/example/template/TemplateMethod.kt))
-- [ ] 策略模式 Strategy ([java](./src/main/java/org/looko/example/strategy/Strategy.java) / [kotlin](./src/main/kotlin/org/looko/example/strategy/Strategy.kt))
+- [x] 策略模式 Strategy ([java](./src/main/java/org/looko/example/strategy/Strategy.java) / [kotlin](./src/main/kotlin/org/looko/example/strategy/Strategy.kt))
 - [ ] 命令模式 Command ([java](./src/main/java/org/looko/example/command/Command.java) / [kotlin](./src/main/kotlin/org/looko/example/command/Command.kt))
 - [ ] 迭代器模式 Iterator ([java](./src/main/java/org/looko/example/iterator/Iterator.java) / [kotlin](./src/main/kotlin/org/looko/example/iterator/Iterator.kt))
 - [ ] 观察者模式 Observer ([java](./src/main/java/org/looko/example/observer/Observer.java) / [kotlin](./src/main/kotlin/org/looko/example/observer/Observer.kt))
