@@ -33,7 +33,7 @@
 - [x] 策略模式 Strategy ([java](./src/main/java/org/looko/example/strategy/Strategy.java) / [kotlin](./src/main/kotlin/org/looko/example/strategy/Strategy.kt))
 - [ ] 命令模式 Command ([java](./src/main/java/org/looko/example/command/Command.java) / [kotlin](./src/main/kotlin/org/looko/example/command/Command.kt))
 - [ ] 迭代器模式 Iterator ([java](./src/main/java/org/looko/example/iterator/Iterator.java) / [kotlin](./src/main/kotlin/org/looko/example/iterator/Iterator.kt))
-- [ ] 观察者模式 Observer ([java](./src/main/java/org/looko/example/observer/Observer.java) / [kotlin](./src/main/kotlin/org/looko/example/observer/Observer.kt))
+- [x] 观察者模式 Observer ([java](./src/main/java/org/looko/example/observer/Observer.java) / [kotlin](./src/main/kotlin/org/looko/example/observer/Observer.kt))
 - [ ] 中介者模式 Mediator ([java](./src/main/java/org/looko/example/mediator/Mediator.java) / [kotlin](./src/main/kotlin/org/looko/example/mediator/Mediator.kt))
 - [ ] 备忘录模式 Memento ([java](./src/main/java/org/looko/example/memento/Memento.java) / [kotlin](./src/main/kotlin/org/looko/example/memento/Memento.kt))
 - [ ] 解释器模式 Interpreter ([java](./src/main/java/org/looko/example/interpreter/Interpreter.java) / [kotlin](./src/main/kotlin/org/looko/example/interpreter/Interpreter.kt))
