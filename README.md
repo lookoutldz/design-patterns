@@ -25,7 +25,7 @@
 - [ ] 组合模式 Composite ([java](./src/main/java/org/looko/example/composite/Composite.java) / [kotlin](./src/main/kotlin/org/looko/example/composite/Composite.kt))
 - [ ] 装饰器模式 Decorator ([java](./src/main/java/org/looko/example/decorator/Decorator.java) / [kotlin](./src/main/kotlin/org/looko/example/decorator/Decorator.kt))
 - [ ] 外观模式 Facade ([java](./src/main/java/org/looko/example/facade/Facade.java) / [kotlin](./src/main/kotlin/org/looko/example/facade/Facade.kt))
-- [ ] 工厂方法模式 Factory Method ([java](./src/main/java/org/looko/example/factorymethod/FactoryMethod.java) / [kotlin](./src/main/kotlin/org/looko/example/factorymethod/FactoryMethod.kt))
+- [x] 工厂方法模式 Factory Method ([java](./src/main/java/org/looko/example/factorymethod/FactoryMethod.java) / [kotlin](./src/main/kotlin/org/looko/example/factorymethod/FactoryMethod.kt))
 - [ ] 原型模式 Prototype ([java](./src/main/java/org/looko/example/prototype/Prototype.java) / [kotlin](./src/main/kotlin/org/looko/example/prototype/Prototype.kt))
 - [ ] 享元模式 Flyweight ([java](./src/main/java/org/looko/example/flyweight/Flyweight.java) / [kotlin](./src/main/kotlin/org/looko/example/flyweight/Flyweight.kt))
 - [x] 代理模式 Proxy ([java](./src/main/java/org/looko/example/proxy/Proxy.java) / [kotlin](./src/main/kotlin/org/looko/example/proxy/Proxy.kt))
