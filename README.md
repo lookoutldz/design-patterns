@@ -39,4 +39,4 @@
 - [ ] 解释器模式 Interpreter ([java](./src/main/java/org/looko/example/interpreter/Interpreter.java) / [kotlin](./src/main/kotlin/org/looko/example/interpreter/Interpreter.kt))
 - [ ] 访问者模式 Visitor ([java](./src/main/java/org/looko/example/visitor/Visitor.java) / [kotlin](./src/main/kotlin/org/looko/example/visitor/Visitor.kt))
 - [ ] 状态模式 State ([java](./src/main/java/org/looko/example/state/State.java) / [kotlin](./src/main/kotlin/org/looko/example/state/State.kt))
-- [ ] 构造者模式 Builder ([java](./src/main/java/org/looko/example/builder/Builder.java) / [kotlin](./src/main/kotlin/org/looko/example/builder/Builder.kt))
+- [x] 构造者模式 Builder ([java](./src/main/java/org/looko/example/builder/Builder.java) / [kotlin](./src/main/kotlin/org/looko/example/builder/Builder.kt))
