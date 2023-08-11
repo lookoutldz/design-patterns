@@ -18,8 +18,8 @@ package org.looko.example.factorymethod
  */
 fun main() {
     val huaweiFactory = HuaweiFactory()
-    val huaweiPhone = huaweiFactory.assemble()
-    huaweiPhone.boot()
+    val huawei = huaweiFactory.assemble()
+    huawei.boot()
 
     val iphoneFactory = IphoneFactory()
     val iphone = iphoneFactory.assemble()
