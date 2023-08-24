@@ -26,27 +26,34 @@ fun main() {
     iphone.boot()
 }
 
-// 手机组装代工厂
+// 手机组装代工厂的工厂规范(要提供一个组装的方法)
 interface MobileFactory { fun assemble(): MobilePhone }
+
+// 实际的工厂
 class HuaweiFactory: MobileFactory {
     override fun assemble(): MobilePhone {
-        return HuaweiPhone()
+        return HuaweiPhone("HUAWEI")
     }
 }
 class IphoneFactory: MobileFactory {
     override fun assemble(): MobilePhone {
-        return Iphone()
+        return Iphone("\uF8FF")
     }
 }
 
-interface MobilePhone { fun boot() }
-class HuaweiPhone: MobilePhone {
+// 手机的行业标准规范
+interface MobilePhone {
+    // 品牌信息
+    val brand: String
+    // 能正常启动
+    fun boot()
+}
+// 手机的通用逻辑(如启动时显示自家品牌信息)
+abstract class AbstractMobilePhone: MobilePhone {
     override fun boot() {
-        println("HUAWEI")
+        println(brand)
     }
 }
-class Iphone: MobilePhone {
-    override fun boot() {
-        println("\uF8FF")
-    }
-}
+// 实际的手机
+class HuaweiPhone(override val brand: String) : AbstractMobilePhone()
+class Iphone(override val brand: String) : AbstractMobilePhone()

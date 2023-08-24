@@ -16,7 +16,9 @@ fun main() {
 // --------------以下是要制造的产品（在软件项目中就是要创建的类）--------------------
 // 手机的行业标准规范
 interface MobilePhone {
+    // 品牌信息
     val brand: String
+    // 能正常启动
     fun boot()
 }
 
